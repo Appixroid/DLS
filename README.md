@@ -13,7 +13,7 @@ The server can be launched with the *Start_DLS_Server.sh* shell file, and the cl
 
 ## Requesting Protocol
 
-The actual version is *DLS 1.0*, and the length of a request is **308 bytes**.
+The actual version is *DLS 1.0*, and the length of a request is **308 bytes**. The port used is the **1442**.
 
 <table>
     <tr>
