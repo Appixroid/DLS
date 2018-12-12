@@ -151,8 +151,8 @@ int main()
 						//////////////////
 
 						//Creating file name
-						char fileName[SENDER_MAX_LENGTH + 14];
-						sprintf(fileName, "/tmp/log/%s.log", request.sender);
+						char fileName[SENDER_MAX_LENGTH + 9];
+						sprintf(fileName, "log/%s.log", request.sender);
 
 						int logFile = open(fileName, O_WRONLY | O_APPEND | O_CREAT, S_IRWXU);
 
