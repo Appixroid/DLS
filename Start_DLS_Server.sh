@@ -1,0 +1,2 @@
+clear
+./bin/DLSServer
